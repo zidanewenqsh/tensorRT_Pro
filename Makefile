@@ -1,13 +1,20 @@
 cc        := g++
 nvcc      = ${lean_cuda}/bin/nvcc
 
-lean_protobuf  := /datav/lean/protobuf3.11.4
-lean_tensor_rt := /datav/lean/TensorRT-8.2.3.0-cuda11.4-cudnn8.2
-lean_cudnn     := /datav/lean/cudnn8.2.4.15-cuda11.4
-lean_opencv    := /datav/lean/opencv-4.2.0
-lean_cuda      := /datav/lean/cuda-11.2
+lean_protobuf  := /usr/local
+lean_tensor_rt := /usr/local
+lean_cudnn     := /usr
+lean_opencv    := /usr/local
+lean_cuda      := /usr/local/cuda
 use_python     := true
-python_root    := /datav/software/anaconda3
+python_root    := /home/hjimi/anaconda3
+# lean_protobuf  := /datav/lean/protobuf3.11.4
+# lean_tensor_rt := /datav/lean/TensorRT-8.2.3.0-cuda11.4-cudnn8.2
+# lean_cudnn     := /datav/lean/cudnn8.2.4.15-cuda11.4
+# lean_opencv    := /datav/lean/opencv-4.2.0
+# lean_cuda      := /datav/lean/cuda-11.2
+# use_python     := true
+# python_root    := /datav/software/anaconda3
 
 # python_root指向的lib目录下有个libpython3.9.so，因此这里写python3.9
 # 对于有些版本，so名字是libpython3.7m.so，你需要填写python3.7m

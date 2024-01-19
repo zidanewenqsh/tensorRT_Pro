@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 请修改protoc为你要使用的版本protoc
-protoc=/data/sxai/lean/protobuf3.11.4/bin/protoc
+protoc=/usr/local/bin/protoc
 #protoc=/data/sxai/temp/protobuf-build3.18.x/bin/protoc
 
 echo Create directory "pbout"
